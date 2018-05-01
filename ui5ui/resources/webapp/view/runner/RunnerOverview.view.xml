@@ -4,6 +4,9 @@
 		<content>
 			<Panel headerText="Workshop">
 				<content>
+					<Toolbar>
+						<SearchField id="searchField" value="{search>/searchTerm}" placeholder="<Suche>" search="onSearchCases" />
+					</Toolbar>
 					<List 
 						id="runnerList"
 						headerText= "Läufer/innen" 
