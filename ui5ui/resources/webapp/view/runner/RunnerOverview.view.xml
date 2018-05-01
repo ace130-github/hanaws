@@ -5,7 +5,14 @@
 			<Panel headerText="Workshop">
 				<content>
 					<Toolbar>
-						<SearchField id="searchField" value="{search>/searchTerm}" placeholder="<Suche>" search="onSearchCases" />
+						<ToolbarSpacer />
+						<SearchField 
+							id="searchField" 
+							value="{search>/searchTerm}" 
+							placeholder="Suche" 
+							search="onSearch"
+							width="20em"
+						/>
 					</Toolbar>
 					<List 
 						id="runnerList"
